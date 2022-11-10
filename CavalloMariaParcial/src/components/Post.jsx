@@ -32,7 +32,7 @@ const Post = ({ incrementsLikes, data }) => {
       <ButtonContainer>
         <Button onClick={darLike}>❤</Button>
       </ButtonContainer>
-      <MiniTitle>{cantLikes <= 10 ? "Likes: " + cantLikes : "Más de 10 likes"}</MiniTitle>
+      <MiniTitle>{cantLikes <= 10 ? cantLikes : "Más de 10 likes"}</MiniTitle>
     </PrincipalContainer>
   )
 }
